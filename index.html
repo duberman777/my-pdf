@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My PDF Document</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <embed src="CV_Vadym_Tsarenko (1).pdf" type="application/pdf" width="100%" height="600px">
+    <iframe src="your-pdf-file.pdf" frameborder="0" allowfullscreen="true"></iframe>
 </body>
 </html>
